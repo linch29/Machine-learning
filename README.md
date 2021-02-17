@@ -1,5 +1,19 @@
 # Machine Learning 
 
+## PS2
+In this project, I conducted some descriptive analysis, graphical exploration and used different method to estimate the causal impact of the PROGRESA program on the social and economic outcomes of individuals in Mexico. Methods include:
+
+* Simple T-test
+* Multiple Regression
+* Difference in Difference Regression
+
+We used DID method because we know from Simple T-test that treatment villages were systematically different from control villages, even before the PROGRESA program arrived.
+
+### Spillover effects
+I also measured if it exist spillover effect by using a intersect regression to measure if there any statistically different impacts of PROGRESA on the non-poor.
+
+
+
 ## PS5
 
 ### Naive Bayes Model
