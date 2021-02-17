@@ -14,6 +14,6 @@ I converted raw text fields into "bag of words" vectors, i.e. a data structure t
 I measured the impact of a word on freshness rating to get top 10 words best predict a fresh or rotten review. and found that Top 10 words that best predict fresh review are mostly positive amd top 10 words that best predict rotten review are mostly negative.
 
 ### Error Analysis
-One of the best sources for inspiration when trying to improve a model is to look at examples where the model performs poorly. Find 5 fresh and rotten reviews where your model performs particularly poorly. Print each review.
+One of the best sources for inspiration when trying to improve a model is to look at examples where the model performs poorly.
 
-The characteristics of these misclassifications are that the comments contain negative sentences and transitional conjunctions. This is because in Naive Bayes, we assume that words are independent of each other, but these examples directly violate this assumption, leading to wrong classification.
+The characteristics of misclassifications example are that the comments contain negative sentences and transitional conjunctions. This is because in Naive Bayes, we assume that words are independent of each other, but these examples directly violate this assumption, leading to wrong classification.
